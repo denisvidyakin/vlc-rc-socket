@@ -1,0 +1,30 @@
+{
+  "name" : "vlc-rc-socket",
+
+  "version" : "0.0.1",
+
+  "description" : "Control vlc player using Unix socket",
+
+  "main" : "index.js",
+
+  "scripts" :
+  { "test" : "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "keywords":
+  [ "vlc"
+   ,"Unix socket"
+  ],
+
+  "files" :
+  [ "lib"
+   ,"index.js"
+   ,"LICENSE"
+   ,"README.md"
+  ],
+
+  "os" : [ "!win32" ],
+
+  "author": "Denis Vidyakin <denisvidyakin@gmail.com>",
+  "license": "MIT"
+}
