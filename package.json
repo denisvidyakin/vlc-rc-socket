@@ -23,6 +23,11 @@
    ,"README.md"
   ],
 
+  "repository" :
+  { "type" : "git"
+   ,"url" : "https://github.com/denisvidyakin/vlc-rc-socket.git"
+  },
+
   "os" : [ "!win32" ],
 
   "author": "Denis Vidyakin <denisvidyakin@gmail.com>",
