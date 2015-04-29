@@ -9,10 +9,8 @@ Simple module to control VLC player using a Unix socket.
 $ npm install vlc-rc-socket
 ```
 The following shall be done once to enable and configure VLC Player RC Interface before start:
-
-in *Preferences > Interface > Main Interfaces* check *Remote control interface*
-
-in *Preferences > Interface > Main Interfaces > RC* check *fake TTY* and set path to socket file in *UNIX socket command input* field.
+  - in *Preferences > Interface > Main Interfaces* check *Remote control interface*
+  - in *Preferences > Interface > Main Interfaces > RC* check *fake TTY* and set path to socket file in *UNIX socket command input* field.
 
 Make sure that VLC player has permissions to make and write files in this directory.
 
