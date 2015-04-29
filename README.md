@@ -3,7 +3,7 @@
 Simple module to control VLC player using a Unix socket.
 
 
-## Installation
+### Installation
 
 ```bash
 $ npm install vlc-rc-socket
@@ -16,7 +16,7 @@ Make sure that VLC player has permissions to make and write files in this direct
 
 
 
-## Examples
+### Examples
 
 ```js
   //Getting started
@@ -54,14 +54,14 @@ Make sure that VLC player has permissions to make and write files in this direct
 
 module has 4 states:
 
-    - 'playerStarting': module executed command to run VLC player ('/usr/bin/vlc') and waits for VLC player to get started;
-    - 'stopped': no media file is opened;
-    - 'tryingToOpenFile': module sent openFile command to VLC player and waits for response;
-    - 'playing': media file is opened.
+- `playerStarting`: module executed command to run VLC player ('/usr/bin/vlc') and waits for VLC player to get started;
+- `stopped`: no media file is opened;
+- `tryingToOpenFile`: module sent openFile command to VLC player and waits for response;
+- `playing`: media file is opened.
 
 
 
 
-## License
+### License
 
 [MIT](LICENSE)
